@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+}
+
+.animations_container {
+    background-color: pink;
+    width: auto;
+    height: 2000px;
+    color: rgb(122, 221, 122);
+    text-align: center;
+    animation-name: first;
+    animation-duration: 4s;
+}
+
+@keyframes first {
+    from {background-color: pink;}
+    to {background-color: red;}
+}
+
+.happy {
+    border-style: dotted;
+    border-color: red;
+    margin: 0px;
+    padding: 30px 30px 30px 30px;
+    animation-duration: 3s;
+}
+
+.sparkling {
+    width: 200px;
+    height: 200px;
+    animation-name: sparkling;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    margin-right: 40px;
+    padding-top: 100px;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes sparkling {
+    from {top: 200px;}
+    to {bottom: 0px;}
+}
+
+.cocktail {
+    width: 200px;
+    height: 200px;
+
+}
+
+.music {
+    width: 200px;
+    height: 200px;
+    animation-name: music;
+    position: relative;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes music {
+    from {top: 200px;}
+    to {bottom: 0px;}
+}
+
+
+
